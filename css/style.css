@@ -1,3 +1,21 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    
+}
+
 img {
-    width: 80%
+    width: 85%
+}
+.red {
+    color: red;
+}
+.italic {
+    font-style: italic;
+}
+.red.italic {
+    font-style: italic;
+    color: red;
+
 }
