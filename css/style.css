@@ -1,4 +1,11 @@
 
+.nav {
+display: flex;
+flex-direction: row;
+
+
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: aliceblue;
