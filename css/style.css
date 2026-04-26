@@ -1,37 +1,16 @@
-/*Recip Assignment*/
-body {
-    font-family: sans-serif;
-    background: #f8fafc;
-    padding: 30px;
-    margin: 0;
-}
-
-/*ID Selector*/
-#recipe_title {
-    text-align: center;
-    border-style: groove;
-    border-color: black;
-    border-top: 0cap;
-    border-right: 0cap;
-    border-left: 0cap;
-}
-
-.columns {
-    display: flex;
-    flex-direction: row;
-
-}
-
-
-/*------------------------- */
-
 
 .nav {
-    display: flex;
-    flex-direction: row;
+display: flex;
+flex-direction: row;
+
+
 }
 
-
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    
+}
 
 img {
     width: 85%
