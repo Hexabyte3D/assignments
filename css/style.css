@@ -1,20 +1,75 @@
-
-.nav {
-display: flex;
-flex-direction: row;
-
-
-}
-
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: aliceblue;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fdfdfd;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-img {
+/*Recipe Assignment CSS */
+.recipe_header {
+    text-align: left;
+    font-family: sans-serif;
+    border-style: groove;
+    border-top: 0cap;
+    border-right: 0cap;
+    border-left: 0cap;
+    padding-top: 20px;
+}
+
+.columns {
+    /*Been playing with flex for a couple of weeks trying to figure it out
+    Still working on understanding display:grid: 
+    */
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    border-style: outset;
+
+}
+
+.columns #recipe {
+    width: 50%;
+    font-size: larger;
+    text-align: left;
+    padding: 5%;
+
+}
+
+.columns #recipe ul {
+    text-align: left;
+    font-size: larger;
+}
+
+.columns .recipe_img {
+    width: 50%;
+    padding-top: 8%;
+    height: fit-content;
+}
+
+.recipe_img>img {
+
     width: 85%
 }
+
+.recipe_img {
+    width: 100%;
+}
+
+/*------------------------------------------------------------------ */
+
+/*Menu Bar CSS*/
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+
 
 .red {
     color: red;
