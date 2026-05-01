@@ -1,47 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-@font-face {
-    font-family: PT Sans;
-    src: url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-}
-
 /*----------------------------------------------------------*/
-.pt-sans-regular {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
-.pt-sans-bold {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@font-face {
+    font-family: cedarville-cursive-regular;
+    src: url("../font/CedarvilleCursive-Regular.ttf");
 }
-
-.pt-sans-regular-italic {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.pt-sans-bold-italic {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 /*         Seismo Page CSS   -----------------------------------            */
 .seismo {
     margin-left: 10%;
     margin-right: 10%;
-    background-image: linear-gradient(90deg,rgb(12, 4, 13),rgb(1, 1, 80));
+    background-image: linear-gradient(90deg, rgb(12, 4, 13), rgb(1, 1, 80));
     color: aliceblue;
 }
 
+.seismo p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font1 {
+    font-family: "Michroma", sans-serif;
+}
+
+.font2 {
+    font-family: "Bricolage Grotesque";
+}
+
+.seismo h2 {
+    font-family: "Michroma", sans-serif;
+}
+
+.font_bq {
+    font-family: "cedarville-cursive-regular";
+}
+.font_ul {
+    font-family: "Quicksand", sans-serif;
+}
+
 /*--------------------------------------------------*/
-
-
-
 
 
 body {
