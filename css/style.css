@@ -155,3 +155,17 @@ th {
     padding: 10px;
     text-align: center;
 }
+
+#sideheader {
+    text-align: left;
+    background-color: #4bacc6;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#tablefooter {
+    text-align: left;
+    background-color: #9bba59;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
