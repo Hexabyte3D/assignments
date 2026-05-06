@@ -2,10 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
 @font-face {
     font-family: cedarville-cursive-regular;
     src: url("../font/CedarvilleCursive-Regular.ttf");
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 /*         Seismo Page CSS   -----------------------------------            */
@@ -35,6 +37,7 @@
 .font_bq {
     font-family: "cedarville-cursive-regular";
 }
+
 .font_ul {
     font-family: "Quicksand", sans-serif;
 }
@@ -44,8 +47,8 @@
 
 body {
     font-family: "PT Sans", sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /*Recipe Assignment CSS */
@@ -113,7 +116,6 @@ body {
 }
 
 
-
 .red {
     color: red;
 }
@@ -126,4 +128,30 @@ body {
     font-style: italic;
     color: red;
 
+}
+
+/*---------------------Table CSS----------------------------- */
+table {
+    border-style: solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr th {
+    background-color: royalblue;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th,
+td,
+tr,
+th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(10, 0, 36);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
 }
