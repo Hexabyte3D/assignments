@@ -9,7 +9,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
+/*----------------------------------------------------------*/
 /*         Seismo Page CSS   -----------------------------------            */
 .seismo {
     margin-left: 10%;
@@ -49,6 +49,10 @@ body {
     font-family: "PT Sans", sans-serif;
     margin-left: 10%;
     margin-right: 10%;
+}
+.font_bold {
+    font-weight: bold;
+    font-size: larger;
 }
 
 /*Recipe Assignment CSS */
@@ -134,9 +138,14 @@ body {
 table {
     border-style: solid;
     border-collapse: collapse;
+    border-width: 5px;
     width: 100%;
 }
-
+.top_border {
+    border-top-width: 5px;
+    border-top-color: rgb(10, 0, 36);
+    border-top-style: solid;
+}
 tr th {
     background-color: royalblue;
     color: white;
@@ -168,4 +177,8 @@ th {
     background-color: #9bba59;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#globe img {
+    width: 200px;
+    height: 200px;
 }
