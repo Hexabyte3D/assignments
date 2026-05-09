@@ -134,7 +134,13 @@ body {
 
 }
 
-/*---------------------Table CSS----------------------------- */
+/*---------------------Table CSS----------------------------- 
+Played with shadows on the table, fun fun :P */
+.table_container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
 table {
     border-style: solid;
     border-collapse: collapse;
@@ -151,7 +157,7 @@ tr th {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* When autoformating, when including */
 th,
 td,
 tr,
@@ -181,4 +187,11 @@ th {
 #globe img {
     width: 200px;
     height: 200px;
+}
+/* Top divider - playing with targetin specific cells or rows with individual borders */
+
+.table_top_border {
+    border-top-width: 5px;
+    border-top-color: rgb(131, 130, 133);
+    border-top-style: solid;
 }
